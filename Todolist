@@ -8,6 +8,7 @@ h3 {color: blue;}
 </style>
 </head>
 <body>
+<h3></h3>
 <h3>My to Do list; September 14th, 2015</h3>
 <ul>
 <li class=low>Walk to the whippy dip with Emma at 8</li>
