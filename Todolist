@@ -1,0 +1,21 @@
+<html>
+<head>
+<style>
+h3 {color: blue;}
+.low {color: rgb(200,200,200);}
+.high {color: red;}
+.medium {color: orange;}
+</style>
+</head>
+<body>
+<h3>My to Do list; September 14th, 2015</h3>
+<ul>
+<li class=low>Walk to the whippy dip with Emma at 8</li>
+<li class=high>Write out that code for Ranum's class</li>
+<li class=medium>Improve your webpage that you completed last week</li>
+<li class=medium>Go to the biology colloquium on thursday</li>
+<li class=low>Find an article about the Greek crices for Pol SCi</li>
+<li class=high>Take the Microbiology pre-test on katie</li>
+</ul>
+</body>
+</html>
