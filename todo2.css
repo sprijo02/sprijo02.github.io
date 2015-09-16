@@ -1,0 +1,9 @@
+.high {background-color: red;}
+.medium {background-color: orange;]
+.low {background-color: rgb(200,200,200);}
+.done {background-color: black;}
+
+section.high>ul {color: rgb(f,f,f);}
+section.medium>ul {color: brown;}
+section.low>ul {color: black;}
+section.done>ul {color: cyan;}
