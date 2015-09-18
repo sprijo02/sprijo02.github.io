@@ -1,5 +1,5 @@
 #high {background-color: red; color: rgb(f,f,f);}
 #medium {background-color: orange; color: brown;}
 #low {background-color: rgb(200,200,200); color: black;}
-#done {background-color: black; color: cyan;}
+#done {background-color: black; color: cyan; text-decoration: line-through;}
 
