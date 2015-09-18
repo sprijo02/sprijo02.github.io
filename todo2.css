@@ -1,6 +1,6 @@
-.high {background-color: red; color: rgb(f,f,f);} section.high>h3 {text; center; color: white;}
-.medium {background-color: orange; color: brown;} section.medium>h3 {text; center; color: white;}
-.low {background-color: rgb(200,200,200); color: black;} section.low>h3 {text; center; color: white;}
-.done {background-color: black; color: cyan; text-decoration: line-through;} section.done>h3 {text; center; color: white;}
-section {height:300px;width:300px;overflow:auto;margin:10 10 10 10;border:2px dotted black;
+.high {background-color: red; color: rgb(f,f,f);} section.high>h3 {text-align; center; color: white;}
+.medium {background-color: orange; color: brown;} section.medium>h3 {text-align; center; color: white;}
+.low {background-color: rgb(200,200,200); color: black;} section.low>h3 {text-align; center; color: white;}
+.done {background-color: black; color: cyan; text-decoration: line-through;} section.done>h3 {text-align; center; color: white;}
+section {height:300px;width:300px;overflow:auto;margin:10 10 10 10;border:2px dotted black;}
 
