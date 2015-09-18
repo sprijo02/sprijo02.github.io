@@ -1,6 +1,6 @@
-#high {background-color: red; color: rgb(f,f,f);}
-#medium {background-color: orange; color: brown;}
-#low {background-color: rgb(200,200,200); color: black;}
-#done {background-color: black; color: cyan; text-decoration: line-through;}
+.high {background-color: red; color: rgb(f,f,f);}
+.medium {background-color: orange; color: brown;}
+.low {background-color: rgb(200,200,200); color: black;}
+.done {background-color: black; color: cyan; text-decoration: line-through;}
 section {height:300px;width:300px;overflow:auto;margin:10 10 10 10;border:2px dotted black;
 
