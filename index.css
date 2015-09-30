@@ -9,12 +9,14 @@ nav
   }
   .one {float: left; 
   width: 50%;
-  margin-top: 40px;
+  margin-top: 80px;
+  padding: 0px;
   height: 500px;
   background-color: red;
   }
   .two {float: left;
-  margin-top: 40px;
+  margin-top: 80px;
+  padding: 0px;
   width: 50%; 
   height:500px;
   background-color:blue;
