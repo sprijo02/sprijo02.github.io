@@ -1,11 +1,59 @@
 <html>
+<head>
+  <style>
+    .High {color: red;}
+    .Medium {color: orange;}
+    .Low {color: grey;}
+    .Done{color: black; 
+    text-decoration: line-through;}
+    #list{list-style: none;}
+    
+  </style>
+  </head>
   <body>
-    <input type="text" id="NewItem">
+    
+    <input type="text" id="textbox">
     <select id="priority">
-    <option>High</option>
-    <option>Medium</option>
-    <option>Low</option>
-        </select>
-        <button class="mybutton">Add Task</button>
+    	<option>High</option>
+    	<option>Medium</option>
+    	<option>Low</option>
+    </select>
+        <button class="mybutton" onclick="addtask()">
+          Add Task</button>
+  
+  <script>
+    addtask = function() {
+      myBox = document.querySelector("#textbox");
+      myPriority = document.querySelector("#priority");
+      myUl = document.querySelector("#tasklist");
+      myUl = document.createElement("ul");
+      myUl.setAttribute("id","tasklist");
+      document.body.appendChild(myUl);
+      
+      myLi= document.createElement("li");
+      myLi.classList.add(priority.value);
+      myLi.setAttribute("id","list");
+     
+      myInput = document.createElement("input");
+      myInput.type = "checkbox";
+      myInput.addEventListener("click",doneTask);
+      
+      myText = document.createTextNode(myBox.value);
+      
+      myUl.appendChild(myLi);
+      myLi.appendChild(myInput);
+      myLi.appendChild(myText);
+                                    
+    }
+    
+    doneTask = function() {
+      if(this.checked)
+      {this.parentNode.classList.add("Done");}
+      else
+      {this.parentNode.classList.remove("Done")}
+    }
+      
+    </script>
+  
   </body>
 </html>
