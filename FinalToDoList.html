@@ -11,7 +11,9 @@
   </style>
   </head>
   <body>
-    
+    <script type="text/javascript" src="http://bnmnetp.github.io/CS130.listsaver.js" >
+      localSave("myUl")
+    </script>
     <input type="text" id="textbox" size="50">
     </ br>
     <select id="priority">
@@ -57,4 +59,8 @@
     </script>
   
   </body>
+  <script type="text/javascript" src="http://bnmnetp.github.io/CS130.listsaver.js">
+    window.onload = function() 
+    {restoreList("tasklist", doneTask) }
+  </script>
 </html>
