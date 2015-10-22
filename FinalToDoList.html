@@ -32,6 +32,7 @@
       {this.parentNode.classList.remove("Done")}
     }
     
+    localSave("myUl")
     
     addtask = function() {
       myBox = document.querySelector("#textbox");
@@ -58,6 +59,10 @@
     }
     </script>
     
+    <script type="text/javascript"> 
+    window.onload = function() 
+    {restoreList("tasklist",doneTask)
+    }</script>
       
   </body>
 </html>
