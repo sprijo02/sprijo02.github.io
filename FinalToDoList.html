@@ -11,9 +11,8 @@
   </style>
   </head>
   <body>
-    <script type="text/javascript" src="http://bnmnetp.github.io/CS130.listsaver.js">
-      localSave("myUl");
-    </script>
+   
+    <label for="textbox">Enter Task</label>
     <input type="text" id="textbox" size="50">
     <br />
     <select id="priority">
@@ -25,10 +24,17 @@
           Add Task</button>
   
   <script>
+  doneTask = function() {
+      if(this.checked)
+      {this.parentNode.classList.add("Done");}
+      else
+      {this.parentNode.classList.remove("Done")}
+    }
+    
+    
     addtask = function() {
       myBox = document.querySelector("#textbox");
       myPriority = document.querySelector("#priority");
-      myUl = document.querySelector("#tasklist");
       myUl = document.createElement("ul");
       myUl.setAttribute("id","tasklist");
       document.body.appendChild(myUl);
@@ -49,21 +55,11 @@
                                     
     }
     
-    doneTask = function() {
-      if(this.checked)
-      {this.parentNode.classList.add("Done");}
-      else
-      {this.parentNode.classList.remove("Done")}
-    }
       
-    </script>
-  
-  </body>
-  <script type="text/javascript" src="http://bnmnetp.github.io/CS130.listsaver.js">
-      localSave("myUl");
-    </script>
-  <script type="text/javascript" src="http://bnmnetp.github.io/CS130.listsaver.js">
+
+  <script type="text/javascript">
     window.onload = function(); 
     {restoreList("tasklist", doneTask) }
   </script>
+  </body>
 </html>
