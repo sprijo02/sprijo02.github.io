@@ -30,9 +30,10 @@
       {this.parentNode.classList.add("Done");}
       else
       {this.parentNode.classList.remove("Done")}
+      localSave("myUl");
     }
     
-    localSave("myUl")
+    
     
     addtask = function() {
       myBox = document.querySelector("#textbox");
@@ -55,14 +56,16 @@
       myUl.appendChild(myLi);
       myLi.appendChild(myInput);
       myLi.appendChild(myText);
-      localSave("myUl")                          
+      
+      localSave("myUl");                          
     }
     </script>
     
     <script type="text/javascript"> 
     window.onload = function() 
-    {restoreList("tasklist",doneTask)
-    }</script>
+    {restoreList("tasklist",doneTask);
+    }
+    </script>
       
   </body>
 </html>
